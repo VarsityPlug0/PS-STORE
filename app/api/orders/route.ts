@@ -10,7 +10,7 @@ export async function POST(req: Request) {
       return Response.json({ error: "Missing required fields" }, { status: 400 });
     }
 
-    const order = createOrder({
+    const order = await createOrder({
       customer,
       items,
       total,
@@ -31,12 +31,12 @@ export async function GET(req: Request) {
   const email = searchParams.get("email");
 
   if (email) {
-    const orders = getOrdersByEmail(email);
+    const orders = await getOrdersByEmail(email);
     return Response.json({ orders });
   }
 
   const authed = await isAdminAuthenticated();
   if (!authed) return Response.json({ error: "Unauthorized" }, { status: 401 });
 
-  return Response.json({ orders: getOrders() });
+  return Response.json({ orders: await getOrders() });
 }

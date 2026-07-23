@@ -2,8 +2,10 @@ import Link from "next/link";
 import { getProducts } from "@/lib/products";
 import ProductCard from "@/components/ProductCard";
 
-export default function Home() {
-  const products = getProducts();
+export const dynamic = "force-dynamic";
+
+export default async function Home() {
+  const products = await getProducts();
   const consoles = products.filter((p) => p.category === "Console").slice(0, 3);
   const controllers = products.filter((p) => p.category === "Controller").slice(0, 3);
 

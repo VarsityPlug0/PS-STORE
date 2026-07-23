@@ -7,6 +7,6 @@ export async function POST(req: Request) {
   }
 
   const body = await req.json();
-  const product = createProduct(body);
+  const product = await createProduct(body);
   return Response.json({ product }, { status: 201 });
 }

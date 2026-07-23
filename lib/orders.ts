@@ -89,7 +89,8 @@ export async function createOrder(
     createdAt: new Date().toISOString(),
     updatedAt: new Date().toISOString(),
   };
-  await db.collection<Order>("orders").insertOne(order as Order & { _id?: unknown });
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  await db.collection("orders").insertOne(order as any);
   return order;
 }
 

@@ -4,6 +4,8 @@ import { getOrderById } from "@/lib/orders";
 import AdminOrderDetailClient from "./AdminOrderDetailClient";
 import { notFound } from "next/navigation";
 
+export const dynamic = "force-dynamic";
+
 export default async function AdminOrderDetailPage({
   params,
 }: {
@@ -13,7 +15,7 @@ export default async function AdminOrderDetailPage({
   if (!authed) redirect("/admin/login");
 
   const { id } = await params;
-  const order = getOrderById(id);
+  const order = await getOrderById(id);
   if (!order) notFound();
 
   return <AdminOrderDetailClient initialOrder={order} />;

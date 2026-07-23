@@ -6,7 +6,7 @@ export async function POST(
   { params }: { params: Promise<{ id: string }> }
 ) {
   const { id } = await params;
-  const order = getOrderById(id);
+  const order = await getOrderById(id);
 
   if (!order) {
     return Response.json({ error: "Order not found" }, { status: 404 });
@@ -21,8 +21,8 @@ export async function POST(
   const body = await req.json().catch(() => ({}));
   const note = typeof body.note === "string" ? body.note.trim().slice(0, 500) : "";
 
-  updateOrder(id, { paymentStatus: "submitted", paymentMethod: "eft" });
-  const updated = pushMessage(
+  await updateOrder(id, { paymentStatus: "submitted", paymentMethod: "eft" });
+  const updated = await pushMessage(
     id,
     "customer",
     note

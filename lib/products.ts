@@ -28,7 +28,8 @@ export async function createProduct(product: Omit<Product, "id">): Promise<Produ
     id: product.name.toLowerCase().replace(/\s+/g, "-").replace(/[^a-z0-9-]/g, "") +
       "-" + Date.now().toString(36),
   };
-  await db.collection<Product>("products").insertOne(newProduct as Product & { _id?: unknown });
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  await db.collection("products").insertOne(newProduct as any);
   return newProduct;
 }
 

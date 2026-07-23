@@ -1,6 +1,8 @@
 import { getProducts } from "@/lib/products";
 import ProductCard from "@/components/ProductCard";
 
+export const dynamic = "force-dynamic";
+
 const CATEGORIES = ["All", "Console", "Controller", "Accessory", "Game"];
 
 export default async function ProductsPage({
@@ -9,7 +11,7 @@ export default async function ProductsPage({
   searchParams: Promise<{ category?: string }>;
 }) {
   const { category } = await searchParams;
-  const allProducts = getProducts();
+  const allProducts = await getProducts();
   const products =
     category && category !== "All"
       ? allProducts.filter((p) => p.category === category)

@@ -13,11 +13,11 @@ export async function POST(
   }
 
   const authed = await isAdminAuthenticated();
-  const order = getOrderById(id);
+  const order = await getOrderById(id);
   if (!order) return Response.json({ error: "Not found" }, { status: 404 });
 
   if (authed) {
-    const updated = pushMessage(id, "admin", text.trim());
+    const updated = await pushMessage(id, "admin", text.trim());
     return Response.json({ order: updated });
   }
 
@@ -26,6 +26,6 @@ export async function POST(
     return Response.json({ error: "Unauthorized" }, { status: 401 });
   }
 
-  const updated = pushMessage(id, "customer", text.trim());
+  const updated = await pushMessage(id, "customer", text.trim());
   return Response.json({ order: updated });
 }

@@ -47,7 +47,7 @@ export async function POST(req: Request) {
 
     // Attach Stripe session ID to the order
     if (orderId) {
-      updateOrder(orderId, { stripeSessionId: session.id });
+      await updateOrder(orderId, { stripeSessionId: session.id });
     }
 
     return Response.json({ url: session.url });

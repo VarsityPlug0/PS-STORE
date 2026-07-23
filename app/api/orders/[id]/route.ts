@@ -10,7 +10,7 @@ export async function GET(
   const email = searchParams.get("email");
   const authed = await isAdminAuthenticated();
 
-  const order = getOrderById(id);
+  const order = await getOrderById(id);
   if (!order) return Response.json({ error: "Not found" }, { status: 404 });
 
   // Allow access if admin or email matches
@@ -30,7 +30,7 @@ export async function PATCH(
   if (!authed) return Response.json({ error: "Unauthorized" }, { status: 401 });
 
   const patch = await req.json();
-  const order = updateOrder(id, patch);
+  const order = await updateOrder(id, patch);
   if (!order) return Response.json({ error: "Not found" }, { status: 404 });
 
   return Response.json({ order });
