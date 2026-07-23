@@ -1,71 +1,79 @@
-// Seed MongoDB with existing JSON data
-// Run: node scripts/seed.mjs
-import { MongoClient } from "mongodb";
+// Seed PostgreSQL with existing JSON data
+// Run AFTER migrate.mjs: node scripts/seed.mjs
+import pg from "pg";
 import { readFileSync, existsSync } from "fs";
 import { join, dirname } from "path";
 import { fileURLToPath } from "url";
 import { config } from "dotenv";
 
+const { Pool } = pg;
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const root = join(__dirname, "..");
-
-// Load .env.local
 config({ path: join(root, ".env.local") });
 
-const uri = process.env.MONGODB_URI;
-if (!uri) {
-  console.error("MONGODB_URI is not set in .env.local");
-  process.exit(1);
-}
-
-const client = new MongoClient(uri);
-
-async function seed() {
-  await client.connect();
-  const db = client.db("ps-store");
-
-  // Seed products
-  const productsFile = join(root, "data", "products.json");
-  if (existsSync(productsFile)) {
-    const products = JSON.parse(readFileSync(productsFile, "utf-8"));
-    const col = db.collection("products");
-    const existing = await col.countDocuments();
-    if (existing === 0) {
-      await col.insertMany(products);
-      console.log(`Seeded ${products.length} products`);
-    } else {
-      console.log(`Products already seeded (${existing} docs) — skipping`);
-    }
-  }
-
-  // Seed orders
-  const ordersFile = join(root, "data", "orders.json");
-  if (existsSync(ordersFile)) {
-    const orders = JSON.parse(readFileSync(ordersFile, "utf-8"));
-    if (orders.length > 0) {
-      const col = db.collection("orders");
-      const existing = await col.countDocuments();
-      if (existing === 0) {
-        await col.insertMany(orders);
-        console.log(`Seeded ${orders.length} orders`);
-      } else {
-        console.log(`Orders already seeded (${existing} docs) — skipping`);
-      }
-    }
-  }
-
-  // Create indexes for fast lookups
-  await db.collection("products").createIndex({ id: 1 }, { unique: true });
-  await db.collection("orders").createIndex({ id: 1 }, { unique: true });
-  await db.collection("orders").createIndex({ "customer.email": 1 });
-  await db.collection("orders").createIndex({ createdAt: -1 });
-  console.log("Indexes created");
-
-  await client.close();
-  console.log("Done!");
-}
-
-seed().catch((err) => {
-  console.error(err);
-  process.exit(1);
+const pool = new Pool({
+  connectionString: process.env.DATABASE_URL,
+  ssl: process.env.NODE_ENV === "production" ? { rejectUnauthorized: false } : false,
 });
+
+// Seed products
+const productsFile = join(root, "data", "products.json");
+if (existsSync(productsFile)) {
+  const products = JSON.parse(readFileSync(productsFile, "utf-8"));
+  const { rows } = await pool.query("SELECT count(*) FROM products");
+  if (Number(rows[0].count) === 0) {
+    for (const p of products) {
+      await pool.query(
+        `INSERT INTO products (id, name, description, price, image, category, stock, specs)
+         VALUES ($1,$2,$3,$4,$5,$6,$7,$8)
+         ON CONFLICT (id) DO NOTHING`,
+        [p.id, p.name, p.description, p.price, p.image, p.category, p.stock, JSON.stringify(p.specs ?? [])]
+      );
+    }
+    console.log(`Seeded ${products.length} products`);
+  } else {
+    console.log(`Products already seeded — skipping`);
+  }
+}
+
+// Seed orders
+const ordersFile = join(root, "data", "orders.json");
+if (existsSync(ordersFile)) {
+  const orders = JSON.parse(readFileSync(ordersFile, "utf-8"));
+  if (orders.length > 0) {
+    const { rows } = await pool.query("SELECT count(*) FROM orders");
+    if (Number(rows[0].count) === 0) {
+      for (const o of orders) {
+        await pool.query(
+          `INSERT INTO orders
+            (id, customer, items, total, status, payment_method, payment_status,
+             tracking_number, tracking_carrier, stripe_session_id, admin_notes, messages, created_at, updated_at)
+           VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14)
+           ON CONFLICT (id) DO NOTHING`,
+          [
+            o.id,
+            JSON.stringify(o.customer),
+            JSON.stringify(o.items),
+            o.total,
+            o.status,
+            o.paymentMethod,
+            o.paymentStatus,
+            o.trackingNumber ?? null,
+            o.trackingCarrier ?? null,
+            o.stripeSessionId ?? null,
+            o.adminNotes ?? null,
+            JSON.stringify(o.messages ?? []),
+            o.createdAt,
+            o.updatedAt,
+          ]
+        );
+      }
+      console.log(`Seeded ${orders.length} orders`);
+    } else {
+      console.log(`Orders already seeded — skipping`);
+    }
+  }
+}
+
+console.log("Done!");
+await pool.end();

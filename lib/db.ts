@@ -1,17 +1,17 @@
-import { MongoClient, Db } from "mongodb";
+import { Pool } from "pg";
 
-// Cache connection across hot reloads in dev, reuse pool in prod
-const g = global as typeof globalThis & { _mongo?: { client: MongoClient; db: Db } };
+const g = global as typeof globalThis & { _pgPool?: Pool };
 
-export async function getDb(): Promise<Db> {
-  if (g._mongo) return g._mongo.db;
+export function getPool(): Pool {
+  if (g._pgPool) return g._pgPool;
 
-  const uri = process.env.MONGODB_URI;
-  if (!uri) throw new Error("MONGODB_URI environment variable is not set");
+  const connectionString = process.env.DATABASE_URL;
+  if (!connectionString) throw new Error("DATABASE_URL environment variable is not set");
 
-  const client = new MongoClient(uri);
-  await client.connect();
-  const db = client.db("ps-store");
-  g._mongo = { client, db };
-  return db;
+  g._pgPool = new Pool({
+    connectionString,
+    ssl: process.env.NODE_ENV === "production" ? { rejectUnauthorized: false } : false,
+  });
+
+  return g._pgPool;
 }
