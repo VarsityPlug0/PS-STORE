@@ -1,0 +1,1434 @@
+[
+  {
+    "id": "ps5-disc",
+    "name": "PlayStation 5 Console (Disc Edition)",
+    "description": "The PS5 Disc Edition delivers a new generation of gaming with lightning-fast load times, haptic feedback, adaptive triggers, and 3D Audio. This certified refurbished unit has been tested and verified by Sony.",
+    "price": 499.99,
+    "image": "/images/ps5-disc-horizontal.jpg",
+    "category": "Console",
+    "stock": 15,
+    "specs": [
+      "1TB SSD",
+      "4K Gaming",
+      "120fps Support",
+      "Ray Tracing",
+      "Ultra HD Blu-ray",
+      "3D Audio",
+      "Haptic Feedback",
+      "Adaptive Triggers",
+      "Certified Refurbished"
+    ]
+  },
+  {
+    "id": "ps5-digital",
+    "name": "PlayStation 5 Digital Edition",
+    "description": "The PS5 Digital Edition is an all-digital console with no disc drive — download every game straight from PlayStation Store. This certified refurbished unit is fully tested and verified by Sony.",
+    "price": 399.99,
+    "image": "/images/ps5-digital-dark.jpg",
+    "category": "Console",
+    "stock": 10,
+    "specs": [
+      "825GB SSD",
+      "4K Gaming",
+      "120fps Support",
+      "Ray Tracing",
+      "Digital Only",
+      "3D Audio",
+      "Haptic Feedback",
+      "Adaptive Triggers",
+      "Certified Refurbished"
+    ]
+  },
+  {
+    "id": "ps5-slim",
+    "name": "PlayStation 5 Slim (Disc Edition)",
+    "description": "The new PS5 Slim is over 30% smaller and 18% lighter than the original PS5. Features a detachable Ultra HD Blu-ray disc drive and a 1TB SSD — the perfect next-gen console in a sleeker package.",
+    "price": 449.99,
+    "image": "/images/ps5-slim-disc-box.webp",
+    "category": "Console",
+    "stock": 8,
+    "specs": [
+      "1TB SSD",
+      "4K Gaming",
+      "120fps Support",
+      "Ray Tracing",
+      "Ultra HD Blu-ray",
+      "30% Slimmer",
+      "3D Audio",
+      "Haptic Feedback",
+      "USB-C Port"
+    ]
+  },
+  {
+    "id": "ps5-slim-digital",
+    "name": "PlayStation 5 Slim Digital Edition",
+    "description": "The PS5 Slim Digital is the all-digital version of the slimmer PS5 redesign — no disc drive, 30% smaller, and with an 825GB SSD. Download your entire library from PlayStation Store.",
+    "price": 349.99,
+    "image": "/images/ps5-slim-digital-stand.jpg",
+    "category": "Console",
+    "stock": 12,
+    "specs": [
+      "825GB SSD",
+      "4K Gaming",
+      "120fps Support",
+      "Ray Tracing",
+      "Digital Only",
+      "30% Slimmer",
+      "3D Audio",
+      "Haptic Feedback",
+      "USB-C Port"
+    ]
+  },
+  {
+    "id": "ps4-pro",
+    "name": "PlayStation 4 Pro",
+    "description": "The most powerful PlayStation 4 ever made. PS4 Pro is enhanced for PS4 Pro and can play all PS4 games. Level up to 4K gaming, streaming entertainment and more.",
+    "price": 299.99,
+    "image": "https://images.unsplash.com/photo-1486401899868-0e435ed85128?w=800&q=80",
+    "category": "Console",
+    "stock": 8,
+    "specs": [
+      "4K Gaming",
+      "HDR Support",
+      "1TB Storage",
+      "Boosted GPU",
+      "Remote Play",
+      "PS VR Ready",
+      "Share Play"
+    ]
+  },
+  {
+    "id": "ps4-slim",
+    "name": "PlayStation 4 Slim",
+    "description": "The most affordable entry point to thousands of incredible PlayStation games. The PS4 Slim is compact, quiet, and built for hours of entertainment.",
+    "price": 199.99,
+    "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=800&q=80",
+    "category": "Console",
+    "stock": 5,
+    "specs": [
+      "1080p Gaming",
+      "500GB Storage",
+      "Slim Design",
+      "Remote Play",
+      "Share Play",
+      "HDR Support",
+      "USB 3.0"
+    ]
+  },
+  {
+    "id": "ps5-pro",
+    "name": "PlayStation 5 Pro",
+    "description": "The PlayStation 5 Pro is the most powerful PlayStation ever — featuring a Custom AMD GPU with 67% more Compute Units, PlayStation Spectral Super Resolution, and a massive 2TB SSD for the ultimate gaming experience.",
+    "price": 699.99,
+    "image": "/images/ps5-pro-promo.jpg",
+    "category": "Console",
+    "stock": 6,
+    "specs": [
+      "2TB SSD",
+      "4K / 8K Gaming",
+      "120fps Support",
+      "Advanced Ray Tracing",
+      "PS Spectral Super Resolution",
+      "67% More GPU Power",
+      "3D Audio",
+      "Haptic Feedback"
+    ]
+  },
+  {
+    "id": "ps5-god-of-war-bundle",
+    "name": "PS5 Console – God of War Ragnarök Bundle",
+    "description": "Get the PlayStation 5 console bundled with God of War Ragnarök. Experience Kratos and Atreus's epic journey across the Nine Realms on the world's most powerful PlayStation.",
+    "price": 559.99,
+    "image": "/images/ps5-disc-lifestyle.jpg",
+    "category": "Console",
+    "stock": 7,
+    "specs": [
+      "PS5 Console Included",
+      "God of War Ragnarök Disc",
+      "DualSense Controller",
+      "4K Gaming",
+      "Ultra-Speed SSD",
+      "3D Audio",
+      "Ray Tracing"
+    ]
+  },
+  {
+    "id": "ps5-spiderman-bundle",
+    "name": "PS5 Console – Spider-Man 2 Bundle",
+    "description": "Swing into action with the PS5 Marvel's Spider-Man 2 bundle. Includes the PS5 console with a Marvel's Spider-Man 2 game voucher and a special-edition DualSense controller.",
+    "price": 559.99,
+    "image": "/images/ps5-slim-glow.jpg",
+    "category": "Console",
+    "stock": 5,
+    "specs": [
+      "PS5 Console Included",
+      "Spider-Man 2 Game Voucher",
+      "DualSense Controller",
+      "4K Gaming",
+      "825GB SSD",
+      "3D Audio",
+      "Haptic Feedback"
+    ]
+  },
+  {
+    "id": "ps5-fc-bundle",
+    "name": "PS5 Console – EA Sports FC 25 Bundle",
+    "description": "The ultimate gaming bundle for football fans. Includes the PS5 console, EA Sports FC 25 disc, and a DualSense wireless controller. Play the beautiful game at its most beautiful.",
+    "price": 549.99,
+    "image": "/images/ps5-bundle-digital-2ctrl.webp",
+    "category": "Console",
+    "stock": 9,
+    "specs": [
+      "PS5 Console Included",
+      "EA Sports FC 25 Disc",
+      "DualSense Controller",
+      "4K Gaming",
+      "120fps Support",
+      "3D Audio",
+      "Haptic Feedback"
+    ]
+  },
+  {
+    "id": "ps5-cod-bundle",
+    "name": "PS5 Console – Call of Duty Bundle",
+    "description": "Go to war with the PS5 Call of Duty bundle. Get the full PS5 experience alongside a Call of Duty game disc and immersive DualSense haptic feedback that puts you in the action.",
+    "price": 549.99,
+    "image": "/images/ps5-disc-shelf.jpg",
+    "category": "Console",
+    "stock": 8,
+    "specs": [
+      "PS5 Console Included",
+      "Call of Duty Disc",
+      "DualSense Controller",
+      "4K Gaming",
+      "120fps Support",
+      "3D Audio",
+      "Adaptive Triggers"
+    ]
+  },
+  {
+    "id": "ps5-slim-spiderman-bundle",
+    "name": "PS5 Slim – Spider-Man 2 Bundle",
+    "description": "The compact PS5 Slim packaged with Marvel's Spider-Man 2. Enjoy the slimmer, lighter PS5 design without sacrificing any performance, alongside one of PS5's best exclusives.",
+    "price": 509.99,
+    "image": "/images/ps5-slim-living.jpg",
+    "category": "Console",
+    "stock": 6,
+    "specs": [
+      "PS5 Slim Console",
+      "Spider-Man 2 Game Voucher",
+      "DualSense Controller",
+      "1TB SSD",
+      "30% Slimmer",
+      "USB-C Port",
+      "4K Gaming"
+    ]
+  },
+  {
+    "id": "ps4-pro-1tb",
+    "name": "PlayStation 4 Pro 1TB (Jet Black)",
+    "description": "The PS4 Pro 1TB in Jet Black gives you the full 4K gaming experience at a budget-friendly price. Perfect for gamers who want premium performance without upgrading to PS5.",
+    "price": 319.99,
+    "image": "https://images.unsplash.com/photo-1486401899868-0e435ed85128?w=800&q=80&fit=crop&crop=center",
+    "category": "Console",
+    "stock": 10,
+    "specs": [
+      "4K Gaming",
+      "HDR Support",
+      "1TB Storage",
+      "Boosted GPU",
+      "Remote Play",
+      "PS VR Ready",
+      "Two USB Ports"
+    ]
+  },
+  {
+    "id": "ps4-pro-bundle",
+    "name": "PS4 Pro 1TB + Extra DualShock 4 Bundle",
+    "description": "The PS4 Pro 1TB console bundled with an extra DualShock 4 controller — perfect for multiplayer gaming. Get 4K gaming and share the experience with friends and family.",
+    "price": 349.99,
+    "image": "https://images.unsplash.com/photo-1486401899868-0e435ed85128?w=800&q=80&fit=crop&crop=top",
+    "category": "Console",
+    "stock": 7,
+    "specs": [
+      "PS4 Pro Console",
+      "Extra DualShock 4",
+      "1TB Storage",
+      "4K Gaming",
+      "HDR Support",
+      "Remote Play",
+      "Share Play"
+    ]
+  },
+  {
+    "id": "ps4-slim-1tb",
+    "name": "PlayStation 4 Slim 1TB",
+    "description": "The PS4 Slim 1TB offers double the storage of the standard model for all your game installs and saves. Compact, quiet, and great value for your gaming setup.",
+    "price": 229.99,
+    "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=800&q=80&fit=crop&crop=center",
+    "category": "Console",
+    "stock": 12,
+    "specs": [
+      "1080p Gaming",
+      "1TB Storage",
+      "Slim Design",
+      "Remote Play",
+      "Share Play",
+      "HDR Support",
+      "USB 3.0"
+    ]
+  },
+  {
+    "id": "ps4-slim-500gb-refurb",
+    "name": "PlayStation 4 Slim 500GB (Certified Refurbished)",
+    "description": "Certified Refurbished PS4 Slim 500GB — inspected, tested, and cleaned by Sony-certified technicians. Backed by a 90-day warranty. The most affordable way to get into PlayStation gaming.",
+    "price": 149.99,
+    "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=800&q=80&fit=crop&crop=top",
+    "category": "Console",
+    "stock": 18,
+    "specs": [
+      "1080p Gaming",
+      "500GB Storage",
+      "Refurbished",
+      "90-Day Warranty",
+      "Remote Play",
+      "HDR Support",
+      "USB 3.0"
+    ]
+  },
+  {
+    "id": "ps4-last-of-us-bundle",
+    "name": "PS4 Slim – The Last of Us Bundle",
+    "description": "Experience one of gaming's greatest stories on the PS4 Slim. Includes the console and The Last of Us Remastered game disc — ideal for fans of the acclaimed TV series.",
+    "price": 249.99,
+    "image": "https://images.unsplash.com/photo-1486401899868-0e435ed85128?w=800&q=80&fit=crop&crop=bottom",
+    "category": "Console",
+    "stock": 8,
+    "specs": [
+      "PS4 Slim Console",
+      "The Last of Us Remastered",
+      "500GB Storage",
+      "1080p Gaming",
+      "Remote Play",
+      "Share Play",
+      "HDR Support"
+    ]
+  },
+  {
+    "id": "ps4-gta-bundle",
+    "name": "PS4 Slim – GTA V Bundle",
+    "description": "The PS4 Slim bundled with Grand Theft Auto V — one of the best-selling games of all time. Explore Los Santos and GTA Online with friends. Great value for new PS4 owners.",
+    "price": 239.99,
+    "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=800&q=80&fit=crop&crop=bottom",
+    "category": "Console",
+    "stock": 9,
+    "specs": [
+      "PS4 Slim Console",
+      "GTA V Disc",
+      "500GB Storage",
+      "1080p Gaming",
+      "GTA Online Access",
+      "Remote Play",
+      "HDR Support"
+    ]
+  },
+  {
+    "id": "ps4-fc-bundle",
+    "name": "PS4 Slim – EA Sports FC 24 Bundle",
+    "description": "The perfect bundle for football fans. The PS4 Slim console comes with EA Sports FC 24 — the world's most popular football game. Great for the whole family.",
+    "price": 239.99,
+    "image": "https://images.unsplash.com/photo-1486401899868-0e435ed85128?w=800&q=80&fit=crop&crop=entropy",
+    "category": "Console",
+    "stock": 11,
+    "specs": [
+      "PS4 Slim Console",
+      "EA Sports FC 24 Disc",
+      "500GB Storage",
+      "1080p Gaming",
+      "Share Play",
+      "HDR Support",
+      "Remote Play"
+    ]
+  },
+  {
+    "id": "ps5-disc-2ctrl-bundle",
+    "name": "PS5 Console (Disc Edition) + Extra DualSense Bundle",
+    "description": "Get the PS5 Disc Edition paired with an extra DualSense Wireless Controller — perfect for multiplayer gaming right out of the box. Includes 1TB SSD and Ultra HD Blu-ray drive.",
+    "price": 619.99,
+    "image": "/images/ps5-bundle-2ctrl.webp",
+    "category": "Console",
+    "stock": 5,
+    "specs": [
+      "1TB SSD",
+      "4K Gaming",
+      "120fps Support",
+      "Ray Tracing",
+      "Ultra HD Blu-ray",
+      "2x DualSense Controllers",
+      "3D Audio",
+      "Haptic Feedback"
+    ]
+  },
+  {
+    "id": "dualsense",
+    "name": "DualSense Wireless Controller",
+    "description": "Discover a deeper, highly immersive gaming experience that brings the action to life in the palms of your hands. Feel physically responsive feedback and tension in the triggers.",
+    "price": 69.99,
+    "image": "https://images.unsplash.com/photo-1592840496694-26d035b52b48?w=800&q=80",
+    "category": "Controller",
+    "stock": 30,
+    "specs": [
+      "Haptic Feedback",
+      "Adaptive Triggers",
+      "Built-in Mic",
+      "USB-C Charging",
+      "12hr Battery",
+      "Motion Sensor",
+      "Touchpad"
+    ]
+  },
+  {
+    "id": "dualsense-edge",
+    "name": "DualSense Edge Wireless Controller",
+    "description": "The ultra-customizable DualSense Edge controller lets you fine-tune your setup with swappable stick caps, back buttons, adjustable trigger stops, and custom button remapping profiles.",
+    "price": 199.99,
+    "image": "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?w=800&q=80",
+    "category": "Controller",
+    "stock": 12,
+    "specs": [
+      "Swappable Stick Caps",
+      "Custom Profiles",
+      "Back Buttons",
+      "Trigger Stops",
+      "Reinforced USB-C",
+      "Pro-Grade",
+      "Carry Case Included"
+    ]
+  },
+  {
+    "id": "dualsense-midnight-black",
+    "name": "DualSense Controller – Midnight Black",
+    "description": "The DualSense wireless controller in bold Midnight Black. The same industry-leading haptic feedback and adaptive triggers in a sleek, dark colorway that stands out.",
+    "price": 74.99,
+    "image": "https://images.unsplash.com/photo-1560419015-7c427e8ae5ba?w=800&q=80",
+    "category": "Controller",
+    "stock": 25,
+    "specs": [
+      "Haptic Feedback",
+      "Adaptive Triggers",
+      "Built-in Mic",
+      "USB-C Charging",
+      "12hr Battery",
+      "Midnight Black",
+      "Touchpad"
+    ]
+  },
+  {
+    "id": "dualsense-cosmic-red",
+    "name": "DualSense Controller – Cosmic Red",
+    "description": "Make your mark with the DualSense wireless controller in Cosmic Red. A striking two-tone design combines a deep red casing with black details for a bold look.",
+    "price": 74.99,
+    "image": "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=800&q=80",
+    "category": "Controller",
+    "stock": 18,
+    "specs": [
+      "Haptic Feedback",
+      "Adaptive Triggers",
+      "Built-in Mic",
+      "USB-C Charging",
+      "12hr Battery",
+      "Cosmic Red",
+      "Touchpad"
+    ]
+  },
+  {
+    "id": "dualsense-starlight-blue",
+    "name": "DualSense Controller – Starlight Blue",
+    "description": "The DualSense wireless controller in Starlight Blue. A celestial two-tone design with a translucent dark blue casing and light accents inspired by the night sky.",
+    "price": 74.99,
+    "image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=800&q=80",
+    "category": "Controller",
+    "stock": 20,
+    "specs": [
+      "Haptic Feedback",
+      "Adaptive Triggers",
+      "Built-in Mic",
+      "USB-C Charging",
+      "12hr Battery",
+      "Starlight Blue",
+      "Touchpad"
+    ]
+  },
+  {
+    "id": "dualsense-nova-pink",
+    "name": "DualSense Controller – Nova Pink",
+    "description": "Express your style with the DualSense wireless controller in Nova Pink. A vibrant two-tone design with a light pink casing and white accents that pops on any desk.",
+    "price": 74.99,
+    "image": "https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=800&q=80",
+    "category": "Controller",
+    "stock": 15,
+    "specs": [
+      "Haptic Feedback",
+      "Adaptive Triggers",
+      "Built-in Mic",
+      "USB-C Charging",
+      "12hr Battery",
+      "Nova Pink",
+      "Touchpad"
+    ]
+  },
+  {
+    "id": "dualshock4-black",
+    "name": "DualShock 4 Controller – Jet Black",
+    "description": "The iconic DualShock 4 wireless controller for PlayStation 4. Features a built-in touchpad, SHARE button, light bar, and stereo headphone jack for complete gaming control.",
+    "price": 49.99,
+    "image": "https://images.unsplash.com/photo-1493711662062-fa541adb3fc8?w=800&q=80",
+    "category": "Controller",
+    "stock": 40,
+    "specs": [
+      "Touchpad",
+      "SHARE Button",
+      "Light Bar",
+      "USB Charging",
+      "8hr Battery",
+      "Stereo Headphone Jack",
+      "Built-in Speaker"
+    ]
+  },
+  {
+    "id": "dualshock4-midnight-blue",
+    "name": "DualShock 4 Controller – Midnight Blue",
+    "description": "The DualShock 4 wireless controller in Midnight Blue. Same full-featured DualShock 4 experience with a sleek deep blue finish that looks great in any setup.",
+    "price": 49.99,
+    "image": "https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?w=800&q=80",
+    "category": "Controller",
+    "stock": 22,
+    "specs": [
+      "Touchpad",
+      "SHARE Button",
+      "Light Bar",
+      "USB Charging",
+      "8hr Battery",
+      "Stereo Headphone Jack",
+      "Midnight Blue"
+    ]
+  },
+  {
+    "id": "dualsense-volcanic-red",
+    "name": "DualSense Controller – Volcanic Red",
+    "description": "Stand out with the DualSense Volcanic Red. A fiery two-tone red and black design that makes a statement. Same award-winning haptic feedback and adaptive triggers.",
+    "price": 74.99,
+    "image": "https://images.unsplash.com/photo-1560419015-7c427e8ae5ba?w=800&q=80&fit=crop&crop=center",
+    "category": "Controller",
+    "stock": 16,
+    "specs": [
+      "Haptic Feedback",
+      "Adaptive Triggers",
+      "Built-in Mic",
+      "USB-C Charging",
+      "12hr Battery",
+      "Volcanic Red",
+      "Touchpad"
+    ]
+  },
+  {
+    "id": "dualsense-sterling-silver",
+    "name": "DualSense Controller – Sterling Silver",
+    "description": "A premium metallic look for your gaming setup. The DualSense Sterling Silver features a brushed silver casing with dark accents — sophisticated and sleek.",
+    "price": 74.99,
+    "image": "https://images.unsplash.com/photo-1592840496694-26d035b52b48?w=800&q=80&fit=crop&crop=bottom",
+    "category": "Controller",
+    "stock": 14,
+    "specs": [
+      "Haptic Feedback",
+      "Adaptive Triggers",
+      "Built-in Mic",
+      "USB-C Charging",
+      "12hr Battery",
+      "Sterling Silver",
+      "Touchpad"
+    ]
+  },
+  {
+    "id": "dualsense-cobalt-blue",
+    "name": "DualSense Controller – Cobalt Blue",
+    "description": "The DualSense in Cobalt Blue brings a vibrant, electric blue look to your controller collection. Eye-catching design with all the haptic and trigger technology you love.",
+    "price": 74.99,
+    "image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=800&q=80&fit=crop&crop=center",
+    "category": "Controller",
+    "stock": 18,
+    "specs": [
+      "Haptic Feedback",
+      "Adaptive Triggers",
+      "Built-in Mic",
+      "USB-C Charging",
+      "12hr Battery",
+      "Cobalt Blue",
+      "Touchpad"
+    ]
+  },
+  {
+    "id": "dualsense-galactic-purple",
+    "name": "DualSense Controller – Galactic Purple",
+    "description": "The DualSense Galactic Purple features a rich purple casing with white accents, giving your setup an out-of-this-world look without compromising on performance.",
+    "price": 74.99,
+    "image": "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?w=800&q=80&fit=crop&crop=bottom",
+    "category": "Controller",
+    "stock": 20,
+    "specs": [
+      "Haptic Feedback",
+      "Adaptive Triggers",
+      "Built-in Mic",
+      "USB-C Charging",
+      "12hr Battery",
+      "Galactic Purple",
+      "Touchpad"
+    ]
+  },
+  {
+    "id": "dualsense-chroma-teal",
+    "name": "DualSense Controller – Chroma Teal",
+    "description": "A fresh take on DualSense colours. The Chroma Teal features a cool teal and black two-tone finish that looks stunning under any lighting. Limited availability.",
+    "price": 74.99,
+    "image": "https://images.unsplash.com/photo-1538481199905-26257b291722?w=800&q=80",
+    "category": "Controller",
+    "stock": 12,
+    "specs": [
+      "Haptic Feedback",
+      "Adaptive Triggers",
+      "Built-in Mic",
+      "USB-C Charging",
+      "12hr Battery",
+      "Chroma Teal",
+      "Touchpad"
+    ]
+  },
+  {
+    "id": "dualsense-edge-midnight-black",
+    "name": "DualSense Edge – Midnight Black",
+    "description": "The pro DualSense Edge in Midnight Black. All the customisability of the Edge — swappable sticks, back buttons, trigger stops — in a stealthy all-black colourway.",
+    "price": 199.99,
+    "image": "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?w=800&q=80&fit=crop&crop=center",
+    "category": "Controller",
+    "stock": 8,
+    "specs": [
+      "Swappable Stick Caps",
+      "Custom Profiles",
+      "Back Buttons",
+      "Trigger Stops",
+      "Midnight Black",
+      "Pro-Grade",
+      "Carry Case Included"
+    ]
+  },
+  {
+    "id": "dualshock4-wave-blue",
+    "name": "DualShock 4 Controller – Wave Blue",
+    "description": "The DualShock 4 in Wave Blue features a transparent blue shell that shows off the internals. A fan-favourite colourway that never goes out of style.",
+    "price": 49.99,
+    "image": "https://images.unsplash.com/photo-1493711662062-fa541adb3fc8?w=800&q=80&fit=crop&crop=center",
+    "category": "Controller",
+    "stock": 24,
+    "specs": [
+      "Touchpad",
+      "SHARE Button",
+      "Light Bar",
+      "USB Charging",
+      "8hr Battery",
+      "Wave Blue Transparent",
+      "Built-in Speaker"
+    ]
+  },
+  {
+    "id": "dualshock4-magma-red",
+    "name": "DualShock 4 Controller – Magma Red",
+    "description": "The DualShock 4 in bold Magma Red. A striking solid red finish that makes this controller stand out on any shelf. Full DualShock 4 features included.",
+    "price": 49.99,
+    "image": "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=800&q=80&fit=crop&crop=entropy",
+    "category": "Controller",
+    "stock": 28,
+    "specs": [
+      "Touchpad",
+      "SHARE Button",
+      "Light Bar",
+      "USB Charging",
+      "8hr Battery",
+      "Magma Red",
+      "Built-in Speaker"
+    ]
+  },
+  {
+    "id": "dualshock4-crystal",
+    "name": "DualShock 4 Controller – Crystal (Limited Edition)",
+    "description": "The limited edition DualShock 4 Crystal features a fully transparent shell revealing the components inside. A collector's must-have and a conversation starter.",
+    "price": 54.99,
+    "image": "https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?w=800&q=80&fit=crop&crop=bottom",
+    "category": "Controller",
+    "stock": 10,
+    "specs": [
+      "Touchpad",
+      "SHARE Button",
+      "Light Bar",
+      "USB Charging",
+      "8hr Battery",
+      "Crystal Transparent",
+      "Limited Edition"
+    ]
+  },
+  {
+    "id": "dualshock4-green-camo",
+    "name": "DualShock 4 Controller – Green Camouflage",
+    "description": "The DualShock 4 in Green Camouflage print. A rugged, military-inspired design that's popular with Call of Duty and shooter fans. Full DualShock 4 feature set.",
+    "price": 54.99,
+    "image": "https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=800&q=80&fit=crop&crop=entropy",
+    "category": "Controller",
+    "stock": 20,
+    "specs": [
+      "Touchpad",
+      "SHARE Button",
+      "Light Bar",
+      "USB Charging",
+      "8hr Battery",
+      "Green Camouflage",
+      "Built-in Speaker"
+    ]
+  },
+  {
+    "id": "dualshock4-copper",
+    "name": "DualShock 4 Controller – Copper",
+    "description": "The rich, warm copper finish of this DualShock 4 is a premium twist on the classic controller. Looks stunning alongside gold or dark gaming setups.",
+    "price": 49.99,
+    "image": "https://images.unsplash.com/photo-1560419015-7c427e8ae5ba?w=800&q=80&fit=crop&crop=bottom",
+    "category": "Controller",
+    "stock": 17,
+    "specs": [
+      "Touchpad",
+      "SHARE Button",
+      "Light Bar",
+      "USB Charging",
+      "8hr Battery",
+      "Copper Finish",
+      "Built-in Speaker"
+    ]
+  },
+  {
+    "id": "ps4-back-button",
+    "name": "PS4 DualShock 4 Back Button Attachment",
+    "description": "Add two remappable back buttons to your DualShock 4 controller. The official PlayStation attachment clips on easily and features an OLED display for profile status. No soldering required.",
+    "price": 29.99,
+    "image": "https://images.unsplash.com/photo-1493711662062-fa541adb3fc8?w=800&q=80&fit=crop&crop=bottom",
+    "category": "Controller",
+    "stock": 35,
+    "specs": [
+      "2 Remappable Buttons",
+      "OLED Profile Display",
+      "3 Custom Profiles",
+      "Easy Clip-On",
+      "3.5mm Headphone Jack",
+      "Official Sony",
+      "No Tools Required"
+    ]
+  },
+  {
+    "id": "pulse-3d",
+    "name": "Pulse 3D Wireless Headset",
+    "description": "Refined for the PlayStation 5 era, the PULSE 3D wireless headset offers seamless compatibility with PS5's Tempest 3D AudioTech for an enveloping audio experience.",
+    "price": 99.99,
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&q=80",
+    "category": "Accessory",
+    "stock": 20,
+    "specs": [
+      "3D Audio",
+      "Dual Noise-Cancelling Mics",
+      "USB-C Charging",
+      "12hr Battery",
+      "Wireless",
+      "3.5mm Jack",
+      "PS5 Optimized"
+    ]
+  },
+  {
+    "id": "pulse-elite",
+    "name": "Pulse Elite Wireless Headset",
+    "description": "The Pulse Elite wireless headset delivers premium sound with planar magnetic drivers and a lossless PlayStation Link audio connection to PS5, PC, and Mac. AI-powered noise rejection keeps your voice crystal clear.",
+    "price": 149.99,
+    "image": "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=800&q=80",
+    "category": "Accessory",
+    "stock": 10,
+    "specs": [
+      "Planar Magnetic Drivers",
+      "AI Noise Rejection",
+      "Lossless Audio",
+      "USB-C Charging",
+      "30hr Battery",
+      "Retractable Mic",
+      "PS Link Technology"
+    ]
+  },
+  {
+    "id": "pulse-explore",
+    "name": "Pulse Explore Wireless Earbuds",
+    "description": "Pulse Explore wireless earbuds bring the PlayStation Link lossless audio experience to an ultra-portable form factor. AI noise rejection and comfortable fit for marathon gaming sessions.",
+    "price": 199.99,
+    "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=800&q=80",
+    "category": "Accessory",
+    "stock": 8,
+    "specs": [
+      "Lossless Audio",
+      "PS Link Technology",
+      "AI Noise Rejection",
+      "Charging Case",
+      "5hr + 20hr Battery",
+      "Multiple Ear Tips",
+      "Multi-Device"
+    ]
+  },
+  {
+    "id": "dualsense-charging",
+    "name": "DualSense Charging Station",
+    "description": "Charge up to two DualSense wireless controllers simultaneously with the official PlayStation charging station. Just drop your controllers in and they start charging automatically — no cable required.",
+    "price": 29.99,
+    "image": "https://images.unsplash.com/photo-1616576881400-a2fe1ce2a9e4?w=800&q=80",
+    "category": "Accessory",
+    "stock": 35,
+    "specs": [
+      "Dual Controller Charging",
+      "LED Charge Indicator",
+      "No Cable Required",
+      "Compact Footprint",
+      "Official Sony",
+      "USB-C Power Input",
+      "Simultaneous Charge"
+    ]
+  },
+  {
+    "id": "psvr2",
+    "name": "PlayStation VR2",
+    "description": "PlayStation VR2 is Sony's next-generation VR headset for PS5. With OLED 4K HDR displays, eye tracking, foveated rendering, and the Sense controllers with haptic feedback, it's the most immersive gaming experience ever created.",
+    "price": 549.99,
+    "image": "https://images.unsplash.com/photo-1593305841991-05c297ba4575?w=800&q=80",
+    "category": "Accessory",
+    "stock": 6,
+    "specs": [
+      "4K HDR OLED",
+      "Eye Tracking",
+      "Foveated Rendering",
+      "Sense Controllers",
+      "Adaptive Triggers",
+      "110° FOV",
+      "Headset Feedback"
+    ]
+  },
+  {
+    "id": "hd-camera",
+    "name": "HD Camera",
+    "description": "The PlayStation HD Camera features dual 1080p lenses and a built-in stand for seamless integration with PS5. Background removal technology lets you appear in your gameplay and streams without a green screen.",
+    "price": 59.99,
+    "image": "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=800&q=80",
+    "category": "Accessory",
+    "stock": 25,
+    "specs": [
+      "Dual 1080p Lenses",
+      "Background Removal",
+      "PS VR2 Compatible",
+      "USB-C Connected",
+      "Adjustable Stand",
+      "60fps Capture",
+      "Wide Angle Lens"
+    ]
+  },
+  {
+    "id": "ps5-media-remote",
+    "name": "PS5 Media Remote",
+    "description": "Control your PS5's media playback, streaming apps, and Blu-ray movies effortlessly with the PlayStation 5 Media Remote. Infrared TV controls built in so you can manage your whole entertainment setup.",
+    "price": 29.99,
+    "image": "https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?w=800&q=80",
+    "category": "Accessory",
+    "stock": 40,
+    "specs": [
+      "Infrared TV Controls",
+      "Streaming App Buttons",
+      "Blu-ray Controls",
+      "Volume & Power",
+      "Compact Design",
+      "USB-C Charging",
+      "Built-in Mic Button"
+    ]
+  },
+  {
+    "id": "ps5-1tb-ssd",
+    "name": "Seagate 1TB Expansion SSD for PS5",
+    "description": "Officially licensed by PlayStation, this 1TB M.2 SSD expansion card fits directly into the PS5's expansion slot, giving you more room for your growing game library — no external cables needed.",
+    "price": 89.99,
+    "image": "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=800&q=80",
+    "category": "Accessory",
+    "stock": 22,
+    "specs": [
+      "1TB Capacity",
+      "PS5 M.2 Slot",
+      "NVMe Technology",
+      "Official Seagate x PlayStation",
+      "No External Cables",
+      "Easy Installation",
+      "PS5 Optimized Speed"
+    ]
+  },
+  {
+    "id": "ps5-2tb-ssd",
+    "name": "Seagate 2TB Expansion SSD for PS5",
+    "description": "Double the storage of your PS5 with this 2TB M.2 NVMe expansion SSD. Store even more AAA titles, DLCs, and game updates without worrying about space. Officially licensed by PlayStation.",
+    "price": 149.99,
+    "image": "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=800&q=80&fit=crop&crop=bottom",
+    "category": "Accessory",
+    "stock": 15,
+    "specs": [
+      "2TB Capacity",
+      "PS5 M.2 Slot",
+      "NVMe Technology",
+      "Official Seagate x PlayStation",
+      "No External Cables",
+      "Easy Installation",
+      "7,300 MB/s Read Speed"
+    ]
+  },
+  {
+    "id": "ps4-2tb-hdd",
+    "name": "Seagate 2TB Game Drive for PS4",
+    "description": "Expand your PS4 storage with this plug-and-play 2TB external game drive. Store up to 50 PS4 games and access them directly from the PlayStation menu. No additional power cable needed.",
+    "price": 59.99,
+    "image": "https://images.unsplash.com/photo-1531492153521-26f5290bea8e?w=800&q=80",
+    "category": "Accessory",
+    "stock": 30,
+    "specs": [
+      "2TB Capacity",
+      "Plug-and-Play",
+      "USB 3.0",
+      "No Power Cable",
+      "Officially Licensed",
+      "PS4 & PS4 Pro",
+      "Up to 50 Games"
+    ]
+  },
+  {
+    "id": "pulse-3d-midnight-black",
+    "name": "Pulse 3D Wireless Headset – Midnight Black",
+    "description": "The PULSE 3D wireless headset in Midnight Black delivers the same immersive 3D Audio experience fine-tuned for PS5, in a bold all-black colourway that suits any dark gaming setup.",
+    "price": 99.99,
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&q=80&fit=crop&crop=center",
+    "category": "Accessory",
+    "stock": 18,
+    "specs": [
+      "3D Audio",
+      "Dual Noise-Cancelling Mics",
+      "USB-C Charging",
+      "12hr Battery",
+      "Midnight Black",
+      "Wireless",
+      "PS5 Optimized"
+    ]
+  },
+  {
+    "id": "pulse-3d-grey-camo",
+    "name": "Pulse 3D Wireless Headset – Grey Camouflage",
+    "description": "The PULSE 3D in Grey Camouflage is a fan-favourite limited colourway. The same award-winning 3D Audio headset optimised for PS5, with a unique grey camo print.",
+    "price": 99.99,
+    "image": "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=800&q=80&fit=crop&crop=center",
+    "category": "Accessory",
+    "stock": 12,
+    "specs": [
+      "3D Audio",
+      "Dual Noise-Cancelling Mics",
+      "USB-C Charging",
+      "12hr Battery",
+      "Grey Camo",
+      "Wireless",
+      "PS5 Optimized"
+    ]
+  },
+  {
+    "id": "psvr2-sense-charging",
+    "name": "PlayStation VR2 Sense Controller Charging Station",
+    "description": "Keep your PS VR2 Sense controllers ready for action. This official charging station charges both controllers simultaneously and features LED indicators to show charge status.",
+    "price": 49.99,
+    "image": "https://images.unsplash.com/photo-1593305841991-05c297ba4575?w=800&q=80&fit=crop",
+    "category": "Accessory",
+    "stock": 14,
+    "specs": [
+      "Dual Controller Charging",
+      "LED Status Indicators",
+      "No Cables Required",
+      "Compact",
+      "Official Sony",
+      "PS VR2 Exclusive",
+      "USB-C Power Input"
+    ]
+  },
+  {
+    "id": "ps5-console-covers-midnight",
+    "name": "PS5 Console Covers – Midnight Black",
+    "description": "Give your PS5 a bold new look with the official Midnight Black console covers. Snap-on covers fit perfectly and require no tools. Compatible with both disc and digital editions.",
+    "price": 54.99,
+    "image": "https://images.unsplash.com/photo-1607853202273-797f1c22a38e?w=800&q=80&fit=crop&crop=top",
+    "category": "Accessory",
+    "stock": 22,
+    "specs": [
+      "Midnight Black",
+      "Official Sony",
+      "Tool-Free Install",
+      "PS5 Disc & Digital Compatible",
+      "Durable Plastic",
+      "Snap-On Design",
+      "Scratch-Resistant"
+    ]
+  },
+  {
+    "id": "ps5-console-covers-cosmic-red",
+    "name": "PS5 Console Covers – Cosmic Red",
+    "description": "Transform your PS5 with the official Cosmic Red console covers. Match your Cosmic Red DualSense controller for a fully coordinated red-and-black gaming setup.",
+    "price": 54.99,
+    "image": "https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?w=800&q=80&fit=crop&crop=entropy",
+    "category": "Accessory",
+    "stock": 20,
+    "specs": [
+      "Cosmic Red",
+      "Official Sony",
+      "Tool-Free Install",
+      "PS5 Disc & Digital Compatible",
+      "Durable Plastic",
+      "Snap-On Design",
+      "Scratch-Resistant"
+    ]
+  },
+  {
+    "id": "ps5-hdmi-cable",
+    "name": "Ultra High Speed HDMI 2.1 Cable (2m)",
+    "description": "Unlock your PS5's full potential with this Ultra High Speed HDMI 2.1 cable. Supports 4K at 120fps, 8K at 60fps, and Variable Refresh Rate (VRR) for the smoothest gaming experience possible.",
+    "price": 24.99,
+    "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
+    "category": "Accessory",
+    "stock": 50,
+    "specs": [
+      "HDMI 2.1",
+      "4K @ 120fps",
+      "8K @ 60fps",
+      "VRR Support",
+      "48Gbps Bandwidth",
+      "2 Metres",
+      "Gold-Plated Connectors"
+    ]
+  },
+  {
+    "id": "playstation-plus-12mo",
+    "name": "PlayStation Plus 12-Month Membership",
+    "description": "Get 12 months of PlayStation Plus Essential — including monthly free games, online multiplayer access, exclusive discounts, and 100GB of cloud storage for game saves.",
+    "price": 59.99,
+    "image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=800&q=80&fit=crop&crop=entropy",
+    "category": "Accessory",
+    "stock": 100,
+    "specs": [
+      "12 Months",
+      "Online Multiplayer",
+      "Monthly Free Games",
+      "Exclusive Discounts",
+      "100GB Cloud Save",
+      "PS4 & PS5",
+      "Digital Code Delivery"
+    ]
+  },
+  {
+    "id": "ps5-vertical-stand",
+    "name": "PS5 Disc Edition Vertical Stand",
+    "description": "Keep your PS5 Disc Edition safely upright with this official vertical stand. Provides stable support and proper ventilation clearance. A must-have for any PS5 disc console owner.",
+    "price": 19.99,
+    "image": "https://images.unsplash.com/photo-1607853202273-797f1c22a38e?w=800&q=80&fit=crop&crop=bottom",
+    "category": "Accessory",
+    "stock": 45,
+    "specs": [
+      "Disc Edition Compatible",
+      "Official Sony",
+      "Ventilation Clearance",
+      "Non-Slip Base",
+      "Screw-Secure",
+      "Matte White Finish",
+      "Space-Saving"
+    ]
+  },
+  {
+    "id": "ps5-power-cable",
+    "name": "PS5 Figure-8 Power Cable (1.8m)",
+    "description": "A replacement or spare figure-8 (IEC C7) power cable for your PS5 or PS4. 1.8 metres long for flexible placement. Rated for 250V / 10A — fully compatible with South African power outlets.",
+    "price": 14.99,
+    "image": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=800&q=80",
+    "category": "Accessory",
+    "stock": 60,
+    "specs": [
+      "Figure-8 IEC C7",
+      "1.8m Length",
+      "250V / 10A Rated",
+      "SA Plug Compatible",
+      "PS5 & PS4 Compatible",
+      "Durable Insulation",
+      "Replacement / Spare"
+    ]
+  },
+  {
+    "id": "ea-sports-fc-25",
+    "name": "EA Sports FC 25",
+    "description": "The world's #1 football game is back. EA Sports FC 25 brings unmatched realism with FC IQ, a brand new tactical system, updated clubs and leagues, and deeper Ultimate Team and Career Mode experiences. The most popular game in South Africa.",
+    "price": 59.99,
+    "image": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800&q=80",
+    "category": "Game",
+    "stock": 50,
+    "specs": [
+      "PS4 & PS5",
+      "1-4 Players",
+      "Online Multiplayer",
+      "Ultimate Team",
+      "Career Mode",
+      "VOLTA Football",
+      "Cross-Play"
+    ]
+  },
+  {
+    "id": "cod-black-ops-6",
+    "name": "Call of Duty: Black Ops 6",
+    "description": "The next chapter of Black Ops is here. Set in the early 1990s, Black Ops 6 features a twisting spy thriller campaign, fan-favourite multiplayer modes, and the return of round-based Zombies. Cross-play with PC and Xbox included.",
+    "price": 69.99,
+    "image": "https://images.unsplash.com/photo-1544510808-91bc1ee65347?w=800&q=80",
+    "category": "Game",
+    "stock": 35,
+    "specs": [
+      "PS4 & PS5",
+      "1-4 Players",
+      "Online Multiplayer",
+      "Campaign Mode",
+      "Warzone Integration",
+      "Zombies Mode",
+      "Cross-Play"
+    ]
+  },
+  {
+    "id": "gta-v-ps5",
+    "name": "Grand Theft Auto V (PS5 Enhanced Edition)",
+    "description": "The critically acclaimed open-world crime epic, rebuilt for PS5. Featuring up to 4K resolution, 60fps performance mode, faster loading, and access to GTA Online — the ever-evolving multiplayer world with millions of players worldwide.",
+    "price": 29.99,
+    "image": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=800&q=80",
+    "category": "Game",
+    "stock": 45,
+    "specs": [
+      "PS5 Only",
+      "1 Player (Story)",
+      "Online Multiplayer",
+      "4K Resolution",
+      "60fps Mode",
+      "Ray Tracing",
+      "GTA Online Included"
+    ]
+  },
+  {
+    "id": "spiderman-2",
+    "name": "Marvel's Spider-Man 2",
+    "description": "Swing through Marvel's New York as Peter Parker and Miles Morales in this PS5 exclusive. Face Venom and the Symbiote threat in an emotionally charged adventure that pushes PS5 hardware to its limits.",
+    "price": 59.99,
+    "image": "https://images.unsplash.com/photo-1508193638397-1c4234db14d8?w=800&q=80",
+    "category": "Game",
+    "stock": 28,
+    "specs": [
+      "PS5 Exclusive",
+      "1 Player",
+      "4K / 60fps",
+      "Ray Tracing",
+      "DualSense Haptics",
+      "Open World",
+      "30+ Hours Story"
+    ]
+  },
+  {
+    "id": "mortal-kombat-1",
+    "name": "Mortal Kombat 1",
+    "description": "A new era of the iconic fighting franchise begins. MK1 reimagines the Mortal Kombat universe from the ground up with an all-new story, stunning visuals, Kameo Fighter system, and brutal fatalities fans love.",
+    "price": 49.99,
+    "image": "https://images.unsplash.com/photo-1555597673-b21d5c935865?w=800&q=80",
+    "category": "Game",
+    "stock": 30,
+    "specs": [
+      "PS4 & PS5",
+      "1-2 Players",
+      "Online Multiplayer",
+      "Story Mode",
+      "Invasions Mode",
+      "Kameo System",
+      "30+ Characters"
+    ]
+  },
+  {
+    "id": "wwe-2k24",
+    "name": "WWE 2K24",
+    "description": "Step inside the squared circle with WWE 2K24. Featuring over 200 playable superstars, revamped MyFaction and MyRise modes, and the most authentic WWE simulation experience to date.",
+    "price": 49.99,
+    "image": "https://images.unsplash.com/photo-1612872087720-bb876e2e67d1?w=800&q=80",
+    "category": "Game",
+    "stock": 25,
+    "specs": [
+      "PS4 & PS5",
+      "1-4 Players",
+      "Online Multiplayer",
+      "200+ Superstars",
+      "MyFaction Mode",
+      "MyRise Career",
+      "Showcase Mode"
+    ]
+  },
+  {
+    "id": "nba-2k25",
+    "name": "NBA 2K25",
+    "description": "The ultimate basketball experience is back. NBA 2K25 features the most realistic on-court gameplay yet, updated rosters, immersive MyCareer, and the biggest MyTeam ever. For every NBA fan in South Africa.",
+    "price": 49.99,
+    "image": "https://images.unsplash.com/photo-1546519638-68e109498ffc?w=800&q=80",
+    "category": "Game",
+    "stock": 30,
+    "specs": [
+      "PS4 & PS5",
+      "1-4 Players",
+      "Online Multiplayer",
+      "MyCareer Mode",
+      "MyTeam",
+      "Updated Rosters",
+      "All 30 NBA Teams"
+    ]
+  },
+  {
+    "id": "god-of-war-ragnarok",
+    "name": "God of War Ragnarök",
+    "description": "The Norse saga continues. Join Kratos and Atreus on an epic journey across all Nine Realms as they face gods, monsters, and the coming of Ragnarök. Winner of over 200 Game of the Year awards.",
+    "price": 49.99,
+    "image": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800&q=80",
+    "category": "Game",
+    "stock": 32,
+    "specs": [
+      "PS4 & PS5",
+      "1 Player",
+      "40+ Hours Story",
+      "PS5 4K/60fps",
+      "DualSense Haptics",
+      "Multiple Realms",
+      "Game of the Year"
+    ]
+  },
+  {
+    "id": "minecraft-ps4",
+    "name": "Minecraft",
+    "description": "The world's best-selling game. Build, explore, and survive in an infinite world of blocks. Minecraft is perfect for all ages and includes the Bedrock Edition with cross-play across PS4, PS5, PC, and mobile.",
+    "price": 19.99,
+    "image": "https://images.unsplash.com/photo-1560347876-aeef00ee58a1?w=800&q=80",
+    "category": "Game",
+    "stock": 60,
+    "specs": [
+      "PS4 & PS5",
+      "1-4 Players (Split-screen)",
+      "Online Multiplayer",
+      "Cross-Play",
+      "Survival & Creative",
+      "Marketplace",
+      "Regular Updates"
+    ]
+  },
+  {
+    "id": "tekken-8",
+    "name": "Tekken 8",
+    "description": "The king of iron fist tournament returns. Tekken 8 delivers the most visually stunning and mechanically deep fighting game in the series with 32 characters, a gripping story mode, and new Heat System gameplay mechanics.",
+    "price": 49.99,
+    "image": "https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?w=800&q=80",
+    "category": "Game",
+    "stock": 28,
+    "specs": [
+      "PS4 & PS5",
+      "1-2 Players",
+      "Online Multiplayer",
+      "32 Characters",
+      "Story Mode",
+      "Heat System",
+      "Arcade Quest"
+    ]
+  },
+  {
+    "id": "ufc-5",
+    "name": "EA Sports UFC 5",
+    "description": "Step into the Octagon with EA Sports UFC 5. Real-time damage, clinch-to-strike transitions, and the most authentic mixed martial arts simulation ever made. Over 300 fighters including South African MMA stars.",
+    "price": 49.99,
+    "image": "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=800&q=80",
+    "category": "Game",
+    "stock": 27,
+    "specs": [
+      "PS4 & PS5",
+      "1-2 Players",
+      "Online Multiplayer",
+      "300+ Fighters",
+      "Real-Time Damage",
+      "Career Mode",
+      "Ultimate Team"
+    ]
+  },
+  {
+    "id": "need-for-speed-unbound",
+    "name": "Need for Speed Unbound",
+    "description": "Race through Lakeshore City in the most stylish NFS ever. Unbound features stunning art direction blending photorealistic cars with bold graffiti animations. Build your rep from street racer to ultimate champion.",
+    "price": 39.99,
+    "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&q=80",
+    "category": "Game",
+    "stock": 32,
+    "specs": [
+      "PS4 & PS5",
+      "1 Player",
+      "Online Multiplayer",
+      "Open World",
+      "Custom Cars",
+      "Street Racing",
+      "Pursuit Mode"
+    ]
+  },
+  {
+    "id": "hogwarts-legacy",
+    "name": "Hogwarts Legacy",
+    "description": "Experience the wizarding world like never before. Set in the 1800s Hogwarts, this open-world RPG lets you attend classes, learn spells, brew potions, and uncover a dangerous secret that threatens the wizarding world.",
+    "price": 39.99,
+    "image": "https://images.unsplash.com/photo-1516912481808-3406841bd33c?w=800&q=80",
+    "category": "Game",
+    "stock": 38,
+    "specs": [
+      "PS4 & PS5",
+      "1 Player",
+      "Open World RPG",
+      "PS5 4K/60fps",
+      "35+ Hours Story",
+      "Quidditch History",
+      "Multiple Storylines"
+    ]
+  },
+  {
+    "id": "last-of-us-part-1",
+    "name": "The Last of Us Part I",
+    "description": "Experience the award-winning post-apocalyptic story of Joel and Ellie, fully rebuilt for PS5. As seen in the acclaimed HBO TV series — now play the game that started it all in stunning 4K at 60fps.",
+    "price": 49.99,
+    "image": "https://images.unsplash.com/photo-1509281373149-e957c6296406?w=800&q=80",
+    "category": "Game",
+    "stock": 33,
+    "specs": [
+      "PS5 Exclusive",
+      "1 Player",
+      "4K / 60fps",
+      "Rebuilt from Scratch",
+      "DualSense Haptics",
+      "3D Audio",
+      "Fidelity & Performance Modes"
+    ]
+  },
+  {
+    "id": "elden-ring",
+    "name": "Elden Ring",
+    "description": "Rise, Tarnished, and become Elden Lord. From the creators of Dark Souls, Elden Ring is a massive open-world action RPG co-created with George R.R. Martin. Game of the Year winner and one of the best games ever made.",
+    "price": 49.99,
+    "image": "https://images.unsplash.com/photo-1580477667995-2b94f01c9516?w=800&q=80",
+    "category": "Game",
+    "stock": 35,
+    "specs": [
+      "PS4 & PS5",
+      "1 Player",
+      "Online Co-op/PvP",
+      "Open World",
+      "60fps on PS5",
+      "Game of the Year",
+      "Shadow of the Erdtree DLC Available"
+    ]
+  },
+  {
+    "id": "cyberpunk-2077",
+    "name": "Cyberpunk 2077",
+    "description": "Live the outlaw life in Night City. Cyberpunk 2077 is a massive open-world RPG where you play as V — a mercenary outlaw going after a one-of-a-kind implant. The PS5 version runs at 4K/60fps with ray tracing.",
+    "price": 29.99,
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80",
+    "category": "Game",
+    "stock": 40,
+    "specs": [
+      "PS4 & PS5",
+      "1 Player",
+      "PS5 4K/60fps",
+      "Ray Tracing",
+      "Open World RPG",
+      "Phantom Liberty DLC",
+      "Phantom Liberty Included"
+    ]
+  },
+  {
+    "id": "red-dead-redemption-2",
+    "name": "Red Dead Redemption 2",
+    "description": "An epic tale of life in America at the dawn of the modern age. RDR2 follows outlaw Arthur Morgan in one of gaming's greatest stories. Includes Red Dead Online for multiplayer adventures on the frontier.",
+    "price": 29.99,
+    "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=800&q=80",
+    "category": "Game",
+    "stock": 42,
+    "specs": [
+      "PS4 & PS5",
+      "1 Player",
+      "Online Multiplayer",
+      "Open World",
+      "60+ Hours Story",
+      "Red Dead Online",
+      "60fps Patch Available"
+    ]
+  },
+  {
+    "id": "assassins-creed-mirage",
+    "name": "Assassin's Creed Mirage",
+    "description": "Return to the roots of Assassin's Creed. Set in 9th-century Baghdad, Mirage follows Basim as he rises from street thief to master assassin. Classic parkour, stealth, and a focused 20-hour adventure.",
+    "price": 39.99,
+    "image": "https://images.unsplash.com/photo-1539635278303-d4002c07eae3?w=800&q=80",
+    "category": "Game",
+    "stock": 30,
+    "specs": [
+      "PS4 & PS5",
+      "1 Player",
+      "PS5 4K/60fps",
+      "Open World",
+      "Stealth Gameplay",
+      "20+ Hours",
+      "Baghdad Setting"
+    ]
+  },
+  {
+    "id": "crash-bandicoot-4",
+    "name": "Crash Bandicoot 4: It's About Time",
+    "description": "The original marsupial is back and this time it's on a grand multiverse adventure. Crash Bandicoot 4 features over 100 levels, 4 playable characters, and more bonus content than any previous entry in the series.",
+    "price": 29.99,
+    "image": "https://images.unsplash.com/photo-1546054454-aa4b9142ffd2?w=800&q=80",
+    "category": "Game",
+    "stock": 36,
+    "specs": [
+      "PS4 & PS5",
+      "1-2 Players",
+      "100+ Levels",
+      "4 Playable Characters",
+      "Co-op Mode",
+      "Retro Levels",
+      "Family Friendly"
+    ]
+  },
+  {
+    "id": "rainbow-six-siege-deluxe",
+    "name": "Tom Clancy's Rainbow Six Siege Deluxe Edition",
+    "description": "The definitive tactical shooter. Rainbow Six Siege rewards teamwork, strategy, and precise communication. The Deluxe Edition includes Year 1 operators for an expanded roster from day one. Cross-play available.",
+    "price": 19.99,
+    "image": "https://images.unsplash.com/photo-1562619816-74df83bd99fb?w=800&q=80",
+    "category": "Game",
+    "stock": 45,
+    "specs": [
+      "PS4 & PS5",
+      "1-5 Players",
+      "Online Only",
+      "Cross-Play",
+      "Tactical Shooter",
+      "Year 1 Operators",
+      "60fps Support"
+    ]
+  }
+]
