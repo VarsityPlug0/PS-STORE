@@ -1,18 +1,25 @@
 // Create PostgreSQL tables
 // Run: node scripts/migrate.mjs
-import pg from "pg";
 import { config } from "dotenv";
 import { join, dirname } from "path";
 import { fileURLToPath } from "url";
 
-const { Pool } = pg;
 const __dirname = dirname(fileURLToPath(import.meta.url));
 config({ path: join(__dirname, "..", ".env.local") });
 
-const pool = new Pool({
-  connectionString: process.env.DATABASE_URL,
-  ssl: process.env.NODE_ENV === "production" ? { rejectUnauthorized: false } : false,
-});
+const url = process.env.DATABASE_URL;
+const isLocal = url?.includes("localhost");
+
+let pool;
+if (isLocal) {
+  const pg = await import("pg");
+  pool = new pg.default.Pool({ connectionString: url });
+} else {
+  const { Pool, neonConfig } = await import("@neondatabase/serverless");
+  const { WebSocket } = await import("ws");
+  neonConfig.webSocketConstructor = WebSocket;
+  pool = new Pool({ connectionString: url });
+}
 
 await pool.query(`
   CREATE TABLE IF NOT EXISTS products (

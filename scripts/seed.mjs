@@ -1,20 +1,27 @@
 // Seed PostgreSQL with existing JSON data
 // Run AFTER migrate.mjs: node scripts/seed.mjs
-import pg from "pg";
 import { readFileSync, existsSync } from "fs";
 import { join, dirname } from "path";
 import { fileURLToPath } from "url";
 import { config } from "dotenv";
 
-const { Pool } = pg;
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const root = join(__dirname, "..");
 config({ path: join(root, ".env.local") });
 
-const pool = new Pool({
-  connectionString: process.env.DATABASE_URL,
-  ssl: process.env.NODE_ENV === "production" ? { rejectUnauthorized: false } : false,
-});
+const url = process.env.DATABASE_URL;
+const isLocal = url?.includes("localhost");
+
+let pool;
+if (isLocal) {
+  const pg = await import("pg");
+  pool = new pg.default.Pool({ connectionString: url });
+} else {
+  const { Pool, neonConfig } = await import("@neondatabase/serverless");
+  const { WebSocket } = await import("ws");
+  neonConfig.webSocketConstructor = WebSocket;
+  pool = new Pool({ connectionString: url });
+}
 
 // Seed products
 const productsFile = join(root, "data", "products.json");

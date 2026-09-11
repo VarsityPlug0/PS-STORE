@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import CartSidebar from "@/components/CartSidebar";
 import WhatsAppChat from "@/components/WhatsAppChat";
+import Script from "next/script";
 
 const geist = Geist({ subsets: ["latin"] });
 
@@ -24,6 +25,9 @@ export default function RootLayout({
         <CartSidebar />
         <main className="pt-16">{children}</main>
         <WhatsAppChat />
+        {process.env.NODE_ENV === "development" && (
+          <Script src="http://localhost:7891/vibe-client.js" data-project="C:/Users/money/ps-store" strategy="afterInteractive" />
+        )}
       </body>
     </html>
   );
